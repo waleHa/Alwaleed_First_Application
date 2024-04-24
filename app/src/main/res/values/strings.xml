@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">First Application</string>
+    <string name="text_view_to_login">Please, login to access the application</string>
+    <string name="edit_text_enter_email">enter_email</string>
+    <string name="edit_text_enter_password">enter_password</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="text_view_error_message_email">The email is incorrect!</string>
+    <string name="text_view_error_message_passwrod">The password is incorrect! You need to have a password > 8 chars, include Capital, small letter and a special char!</string>
+
+</resources>
