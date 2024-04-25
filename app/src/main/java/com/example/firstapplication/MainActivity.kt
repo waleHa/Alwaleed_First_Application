@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
             emailValidate =
                 submittedEmail.toString().contains('@')
-                 && submittedEmail.toString().contains('.')
+                 && submittedEmail.toString().substringAfter('@').contains('.')
 
             Log.d("MainActivity","${submittedEmail.toString()}: ${emailValidate.toString()}")
             passwordValidate = validatePassword((submittedPassword.toString()))
